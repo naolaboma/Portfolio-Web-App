@@ -22,7 +22,7 @@ const About: React.FC = () => {
       {/* Content */}
       <div>
         <h3 className="text-2xl sm:text-3xl font-extrabold font-display leading-tight">
-          <span className="wave-hand">Hi there 👋</span>, I'm{' '}
+          <span className="wave-hand">Hi there 👋</span>, I&apos;m{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-cyan-300 to-sky-300 drop-shadow-[0_1px_10px_rgba(45,212,191,0.25)]">
             {about.name}
           </span>

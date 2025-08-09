@@ -2,6 +2,7 @@ import React from 'react';
 import { Project } from '../data/projects';
 import Image from 'next/image';
 import RepoStats from 'components/RepoStats';
+import Link from 'next/link';
 
 interface ProjectDetailProps {
   project: Project;
@@ -10,7 +11,7 @@ interface ProjectDetailProps {
 const ProjectDetail: React.FC<ProjectDetailProps> = ({ project }) => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <a href="/#projects" className="text-teal-300 hover:text-teal-200 underline text-sm">← Back to Projects</a>
+      <Link href="/#projects" className="text-teal-300 hover:text-teal-200 underline text-sm">← Back to Projects</Link>
 
       <h1 className="mt-3 text-3xl sm:text-4xl font-extrabold font-display text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-cyan-300 to-sky-300">
         {project.title}
