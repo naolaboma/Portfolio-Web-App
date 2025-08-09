@@ -38,7 +38,7 @@ export const projects: Project[] = [
     shortDescription: 'A personal portfolio website to showcase projects and skills.',
     description: `This portfolio website is built using Next.js and Tailwind CSS, featuring a responsive design and smooth user experience. It highlights my projects, skills, and provides a contact form.`,
     tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
-    repoUrl: 'https://github.com/your-username/personal-portfolio',
+    repoUrl: 'https://github.com/naolaboma/Portfolio-Web-App',
     liveUrl: 'https://your-portfolio-url.vercel.app',
     images: ['/images/projects/portfolio.png'],
     role: 'Full Stack Developer',
